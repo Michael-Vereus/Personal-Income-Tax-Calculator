@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color:#C4DAD2 ;
+}
+.judul{
+    width: 350px;
+    margin: auto;
+}
+#title{
+    width: 350px;
+    margin: auto;
+    margin-top: 40px;
+    letter-spacing: 15px;
+    font-size: 2.5em;
+    color: #33372C;
+    word-spacing: 4px;
+}
+.space{
+    height: 100px;
+    
+}
+.space2{
+    height: 20px;
+}
+.inputCtn{
+    background-color: #16423C;
+    height: 460px;
+    width: 340px;
+    margin: auto;
+    align-self:flex-start;
+    border-radius: 40px;
+}
+.DesignInput{
+    background-color: #E9EFEC;
+    padding: 20px;
+    gap: 20px;
+    width: 150px;
+    margin-left: 30px;
+    justify-content: center;
+    display:flexbox;
+    margin-bottom: 20px ;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1em;
+    overflow: hidden;
+    transition: background-color 0.5s;
+}
+.DesignHint{
+    background-color: #E9EFEC;
+    margin-left: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    transition: background-color 0.5s , color 0.5s;
+}
+.DesignHint:hover{
+    background-color: #33372C;
+    color: #E9EFEC;
+}
+.DesignInput:hover{
+    background-color: hsl(150, 16%, 43%);
+    color: #C4DAD2;
+}
+.DesignHitung{
+    background-color: #6A9C89;
+    margin-left: 180px;
+    padding: 15px;
+    width: 100px;
+    border-radius: 50px;
+    color:#E9EFEC;
+    letter-spacing: 4px;
+    font: 0.5em;
+    border: none;
+    transition: 0.5s;
+}
+.DesignHitung:hover{
+    background-color: hsl(157, 20%, 21%);
+    color :hsl(150, 16%, 63%);
+}
+#reset{
+    width: 340px ;
+    margin: auto;
+    margin-top: 20px;
+    height: 100px;
+}
+.DesignReset{
+    width: 340px;
+    height: 50px;
+    margin: auto;
+    background-color: hsl(0, 100%, 50%);
+    border: none;
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: #C4DAD2;
+    transition: 0.5s;
+}
+.DesignReset:hover{
+    background-color: hsl(0, 100%, 70%);
+    font-family: "Montserrat", sans-serif;
+    color: #C4DAD2;
+}
+.DesignReset:active{
+    background-color: black;
+}
+.hasil {
+    font-size: 1em;
+    margin-left: 35px;
+    margin-top: 30px;
+    letter-spacing: 4px;
+    color: #6A9C89;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+::placeholder{
+    color: #E9EFEC;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
+
+}
