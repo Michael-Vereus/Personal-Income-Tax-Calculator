@@ -41,7 +41,10 @@ Number(PKP)
             let PTKP = 54000000 ; 
             PKP = CleanSalary - PTKP
             console.log(PKP)
-            if ( PKP <= 60000000){
+            if (PKP <= 0){
+                output.textContent = (`Karena PTKP anda lebih besar dari Gaji Bersih Anda maka anda dibebaskan pajak namun anda tetap wajib melaporkan pajak anda`) 
+            }
+            else if ( PKP <= 60000000){
                 PPHFINAL = PKP * 0.05 ;
                 PPHFINAL = PPHFINAL /= 12
                 output.textContent = (`PPH 21 Terutang Sebesar ${PPHFINAL} per bulan`) 
@@ -117,7 +120,11 @@ Number(PKP)
             let PTKP = 58500000 ; 
             PKP = CleanSalary - PTKP
             console.log(PKP)
-            if ( PKP <= 60000000){
+            if (PKP <= 0){
+                output.textContent = (`Karena PTKP anda lebih besar dari Gaji Bersih Anda maka anda dibebaskan pajak namun anda tetap wajib melaporkan pajak anda`) 
+
+            }
+            else if ( PKP <= 60000000){
                 PPHFINAL = PKP * 0.05 ;
                 PPHFINAL = PPHFINAL /= 12
                 output.textContent = (`PPH 21 Terutang Sebesar ${PPHFINAL} per bulan`) 
@@ -190,10 +197,14 @@ Number(PKP)
             }
         }
         else if ( Type == "TK/2"){
-            let PTKP = 54000000 ; 
+            let PTKP = 63000000 ; 
             PKP = CleanSalary - PTKP
             console.log(PKP)
-            if ( PKP <= 60000000){
+            if (PKP <= 0){
+                output.textContent = (`Karena PTKP anda lebih besar dari Gaji Bersih Anda maka anda dibebaskan pajak namun anda tetap wajib melaporkan pajak anda`) 
+
+            }
+            else if ( PKP <= 60000000){
                 PPHFINAL = PKP * 0.05 ;
                 PPHFINAL = PPHFINAL /= 12
                 output.textContent = (`PPH 21 Terutang Sebesar ${PPHFINAL} per bulan`) 
@@ -264,11 +275,16 @@ Number(PKP)
                 PPHFINAL = Math.round(PPHFINAL)
                 output.textContent = (`PPH 21 Terutang Sebesar Rp ${PPHFINAL},00- per bulan`) ;
             }
-        }else if ( Type == "TK/3"){
-            let PTKP = 54000000 ; 
+        }
+        else if ( Type == "TK/3"){
+            let PTKP = 67500000 ; 
             PKP = CleanSalary - PTKP
             console.log(PKP)
-            if ( PKP <= 60000000){
+            if (PKP <= 0){
+                output.textContent = (`Karena PTKP anda lebih besar dari Gaji Bersih Anda maka anda dibebaskan pajak namun anda tetap wajib melaporkan pajak anda`) 
+
+            }
+            else if ( PKP <= 60000000){
                 PPHFINAL = PKP * 0.05 ;
                 PPHFINAL = PPHFINAL /= 12
                 output.textContent = (`PPH 21 Terutang Sebesar ${PPHFINAL} per bulan`) 
@@ -341,10 +357,14 @@ Number(PKP)
             }
         }
         else if ( Type == "K/0"){
-            let PTKP = 54000000 ; 
+            let PTKP = 58500000 ; 
             PKP = CleanSalary - PTKP
             console.log(PKP)
-            if ( PKP <= 60000000){
+            if (PKP <= 0){
+                output.textContent = (`Karena PTKP anda lebih besar dari Gaji Bersih Anda maka anda dibebaskan pajak namun anda tetap wajib melaporkan pajak anda`) 
+
+            }
+            else if ( PKP <= 60000000){
                 PPHFINAL = PKP * 0.05 ;
                 PPHFINAL = PPHFINAL /= 12
                 output.textContent = (`PPH 21 Terutang Sebesar ${PPHFINAL} per bulan`) 
@@ -417,10 +437,14 @@ Number(PKP)
             }
         }
         else if ( Type == "K/1"){
-            let PTKP = 54000000 ; 
+            let PTKP = 63000000 ; 
             PKP = CleanSalary - PTKP
             console.log(PKP)
-            if ( PKP <= 60000000){
+            if (PKP <= 0){
+                output.textContent = (`Karena PTKP anda lebih besar dari Gaji Bersih Anda maka anda dibebaskan pajak namun anda tetap wajib melaporkan pajak anda`) 
+
+            }
+            else if ( PKP <= 60000000){
                 PPHFINAL = PKP * 0.05 ;
                 PPHFINAL = PPHFINAL /= 12
                 output.textContent = (`PPH 21 Terutang Sebesar ${PPHFINAL} per bulan`) 
@@ -493,10 +517,14 @@ Number(PKP)
             }
         }
         else if ( Type == "K/2"){
-            let PTKP = 54000000 ; 
+            let PTKP = 67500000 ; 
             PKP = CleanSalary - PTKP
             console.log(PKP)
-            if ( PKP <= 60000000){
+            if (PKP <= 0){
+                output.textContent = (`Karena PTKP anda lebih besar dari Gaji Bersih Anda maka anda dibebaskan pajak namun anda tetap wajib melaporkan pajak anda`) 
+
+            }
+            else if ( PKP <= 60000000){
                 PPHFINAL = PKP * 0.05 ;
                 PPHFINAL = PPHFINAL /= 12
                 output.textContent = (`PPH 21 Terutang Sebesar ${PPHFINAL} per bulan`) 
@@ -569,10 +597,14 @@ Number(PKP)
             }
         }
         else if ( Type == "K/3"){
-            let PTKP = 54000000 ; 
+            let PTKP = 72000000 ; 
             PKP = CleanSalary - PTKP
             console.log(PKP)
-            if ( PKP <= 60000000){
+            if (PKP <= 0){
+                output.textContent = (`Karena PTKP anda lebih besar dari Gaji Bersih Anda maka anda dibebaskan pajak namun anda tetap wajib melaporkan pajak anda`) 
+
+            }
+            else if ( PKP <= 60000000){
                 PPHFINAL = PKP * 0.05 ;
                 PPHFINAL = PPHFINAL /= 12
                 output.textContent = (`PPH 21 Terutang Sebesar ${PPHFINAL} per bulan`) 
@@ -645,10 +677,14 @@ Number(PKP)
             }
         }
         else if ( Type == "K/I/0"){
-            let PTKP = 54000000 ; 
+            let PTKP = 112500000 ; 
             PKP = CleanSalary - PTKP
             console.log(PKP)
-            if ( PKP <= 60000000){
+            if (PKP <= 0){
+                output.textContent = (`Karena PTKP anda lebih besar dari Gaji Bersih Anda maka anda dibebaskan pajak namun anda tetap wajib melaporkan pajak anda`) 
+
+            }
+            else if ( PKP <= 60000000){
                 PPHFINAL = PKP * 0.05 ;
                 PPHFINAL = PPHFINAL /= 12
                 output.textContent = (`PPH 21 Terutang Sebesar ${PPHFINAL} per bulan`) 
@@ -721,10 +757,14 @@ Number(PKP)
             }
         }
         else if ( Type == "K/I/1"){
-            let PTKP = 54000000 ; 
+            let PTKP = 117000000 ; 
             PKP = CleanSalary - PTKP
             console.log(PKP)
-            if ( PKP <= 60000000){
+            if (PKP <= 0){
+                output.textContent = (`Karena PTKP anda lebih besar dari Gaji Bersih Anda maka anda dibebaskan pajak namun anda tetap wajib melaporkan pajak anda`) 
+
+            }
+            else if ( PKP <= 60000000){
                 PPHFINAL = PKP * 0.05 ;
                 PPHFINAL = PPHFINAL /= 12
                 output.textContent = (`PPH 21 Terutang Sebesar ${PPHFINAL} per bulan`) 
@@ -797,10 +837,14 @@ Number(PKP)
             }
         }
         else if ( Type == "K/I/2"){
-            let PTKP = 54000000 ; 
+            let PTKP = 121500000 ; 
             PKP = CleanSalary - PTKP
             console.log(PKP)
-            if ( PKP <= 60000000){
+            if (PKP <= 0){
+                output.textContent = (`Karena PTKP anda lebih besar dari Gaji Bersih Anda maka anda dibebaskan pajak namun anda tetap wajib melaporkan pajak anda`) 
+
+            }
+            else if ( PKP <= 60000000){
                 PPHFINAL = PKP * 0.05 ;
                 PPHFINAL = PPHFINAL /= 12
                 output.textContent = (`PPH 21 Terutang Sebesar ${PPHFINAL} per bulan`) 
@@ -873,10 +917,14 @@ Number(PKP)
             }
         }
         else if ( Type == "K/I/3"){
-            let PTKP = 54000000 ; 
+            let PTKP = 126000000 ; 
             PKP = CleanSalary - PTKP
             console.log(PKP)
-            if ( PKP <= 60000000){
+            if (PKP <= 0){
+                output.textContent = (`Karena PTKP anda lebih besar dari Gaji Bersih Anda maka anda dibebaskan pajak namun anda tetap wajib melaporkan pajak anda`) 
+
+            }
+            else if ( PKP <= 60000000){
                 PPHFINAL = PKP * 0.05 ;
                 PPHFINAL = PPHFINAL /= 12
                 output.textContent = (`PPH 21 Terutang Sebesar ${PPHFINAL} per bulan`) 
