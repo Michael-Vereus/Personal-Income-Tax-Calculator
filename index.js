@@ -1006,7 +1006,7 @@ GajiHelp.onclick = function(){
     alert("Untuk menghitung Gaji Bersih = Gaji yang diterima ditambah tunjangan yang diberikan kemudian dikurangi oleh premi dan potongan-potongan yang ada.")
 }
 PTKPHelp.onclick = function(){
-    alert("Silahkan masukkan jenis PTKP Anda, TK = Tidak Kawin , Kawin , kemudian penambahan 'I' ditengah menunjukkan penghasilan digabung, kemudian penambahan angka di akhir menunjukkan berapa tanggungan yang dimiliki. Maksimal tanggungan yang dapat ditanggung adalah tiga. Contoh Tidak Kawin tidak memiliki tanggungan maka penulisan yang benar TK/0 , Kawin dengan 2 tanggungan maka penulisan yang benar K/2 , Kawin penghasilan digabung serta memiliki 3 tanggungan K/I/3.")
+    alert("Silahkan masukkan jenis PTKP anda, info lebih lanjut silahkan lihat tabel dibawah")
 }
 Reset.onclick = function(){
     CleanSalary = 0 ;

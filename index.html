@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale= 0.9">
     <title>Personal Income Tax Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <div class="judul">
         <h1 id="title">Tax Calculator</h1>
     </div>
-    <div class="space"></div>
     <div class="inputCtn">
         <div class="space2"></div>
         <input class="DesignInput" id="GajiBersih" placeholder="Masukkan Gaji Bersih Anda" type="number"> <button class="DesignHint" id="GajiHelp">?</button>
@@ -18,10 +25,77 @@
         <button class="DesignHitung" id="Hitung">Hitung</button> 
     </div>
     <h2 class="hasil" id="output"></h2>
-
     <div id="reset">
         <button class="DesignReset" id="Reset">Reset</button>
     </div>
+    <table>
+        <tr>
+          <th>Jenis PTKP</th>
+          <th>Desc</th>
+          <th>Tarif</th>
+        </tr>
+        <tr>
+          <td>TK/0</td>
+          <td>Tidak Kawin, 0 Tanggungan </td>
+          <td>Rp 54.000.000</td>
+        </tr>
+        <tr>
+            <td>TK/1</td>
+            <td>Tidak Kawin, 1 Tanggungan </td>
+            <td>Rp 58.500.000</td>
+        </tr>
+        <tr>
+            <td>TK/2</td>
+            <td>Tidak Kawin, 2 Tanggungan </td>
+            <td>Rp 63.000.000</td>
+        </tr>
+        <tr>
+            <td>TK/3</td>
+            <td>Tidak Kawin, 3 Tanggungan </td>
+            <td>Rp 67.500.000</td>
+        </tr>
+        <tr>
+            <td>K/0</td>
+            <td>Kawin, 0 Tanggungan </td>
+            <td>Rp 58.500.000</td>
+        </tr>
+        <tr>
+            <td>K/1</td>
+            <td>Kawin, 1 Tanggungan </td>
+            <td>Rp 63.000.000</td>
+        </tr>
+        <tr>
+            <td>K/2</td>
+            <td>Kawin, 2 Tanggungan </td>
+            <td>Rp 67.500.000</td>
+        </tr>
+        <tr>
+            <td>K/3</td>
+            <td>Kawin, 3 Tanggungan </td>
+            <td>Rp 72.000.000</td>
+        </tr>
+        <tr>
+            <td>K/I/0</td>
+            <td>Kawin Penghasilan Istri digabung dengan suami, 0 Tanggungan </td>
+            <td>Rp 112.500.000</td>
+        </tr>
+        <tr>
+            <td>K/I/1</td>
+            <td>Kawin Penghasilan Istri digabung dengan suami, 1 Tanggungan </td>
+            <td>Rp 117.000.000</td>
+        </tr>
+        <tr>
+            <td>K/I/2</td>
+            <td>Kawin Penghasilan Istri digabung dengan suami, 2 Tanggungan </td>
+            <td>Rp 121.500.000</td>
+        </tr>
+        <tr>
+            <td>K/I/3</td>
+            <td>Kawin Penghasilan Istri digabung dengan suami, 1 Tanggungan </td>
+            <td>Rp 126.000.000</td>
+        </tr>
+
+      </table>
 
 </body>
 <script src="index.js"></script>
